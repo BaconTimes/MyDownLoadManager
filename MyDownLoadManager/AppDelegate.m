@@ -7,13 +7,22 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DownLoadManager.h"
+#define URLSTR @"http://iappfree.candou.com:8080/free/applications/limited?currency=rmb&page=1"
 @implementation AppDelegate
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [[DownLoadManager sharedManager] addDownLoadDataWithDownLoadStr:URLSTR];
+//   NSDictionary * dic =[[DownLoadManager sharedManager]getDicWithData];
+//    NSLog(@"aaa%@",dic);
+    
+    
+    
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

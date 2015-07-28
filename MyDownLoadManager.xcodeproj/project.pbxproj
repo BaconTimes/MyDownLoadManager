@@ -19,6 +19,8 @@
 		4EA5CCBB1B5F8D8A0022D76A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA5CCA31B5F8D8A0022D76A /* UIKit.framework */; };
 		4EA5CCC31B5F8D8A0022D76A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5CCC11B5F8D8A0022D76A /* InfoPlist.strings */; };
 		4EA5CCC51B5F8D8A0022D76A /* MyDownLoadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5CCC41B5F8D8A0022D76A /* MyDownLoadManagerTests.m */; };
+		4EA5CCD01B5F8DA80022D76A /* DownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5CCCF1B5F8DA80022D76A /* DownLoadManager.m */; };
+		4EA5CCD31B5F91260022D76A /* DownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5CCD21B5F91260022D76A /* DownLoad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		4EA5CCC01B5F8D8A0022D76A /* MyDownLoadManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDownLoadManagerTests-Info.plist"; sourceTree = "<group>"; };
 		4EA5CCC21B5F8D8A0022D76A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EA5CCC41B5F8D8A0022D76A /* MyDownLoadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDownLoadManagerTests.m; sourceTree = "<group>"; };
+		4EA5CCCE1B5F8DA80022D76A /* DownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadManager.h; sourceTree = "<group>"; };
+		4EA5CCCF1B5F8DA80022D76A /* DownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadManager.m; sourceTree = "<group>"; };
+		4EA5CCD11B5F91260022D76A /* DownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoad.h; sourceTree = "<group>"; };
+		4EA5CCD21B5F91260022D76A /* DownLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				4EA5CCAF1B5F8D8A0022D76A /* AppDelegate.m */,
 				4EA5CCB11B5F8D8A0022D76A /* Images.xcassets */,
 				4EA5CCA61B5F8D8A0022D76A /* Supporting Files */,
+				4EA5CCCE1B5F8DA80022D76A /* DownLoadManager.h */,
+				4EA5CCCF1B5F8DA80022D76A /* DownLoadManager.m */,
+				4EA5CCD11B5F91260022D76A /* DownLoad.h */,
+				4EA5CCD21B5F91260022D76A /* DownLoad.m */,
 			);
 			path = MyDownLoadManager;
 			sourceTree = "<group>";
@@ -239,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA5CCD01B5F8DA80022D76A /* DownLoadManager.m in Sources */,
+				4EA5CCD31B5F91260022D76A /* DownLoad.m in Sources */,
 				4EA5CCB01B5F8D8A0022D76A /* AppDelegate.m in Sources */,
 				4EA5CCAC1B5F8D8A0022D76A /* main.m in Sources */,
 			);
